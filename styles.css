@@ -59,7 +59,7 @@ h1 {
   font-weight: 600;
 }
 
-#form {
+#formControl {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,6 +85,7 @@ button {
   color: #fff;
   background-color: hsl(154, 59%, 51%);
   font-size: 16px;
+  cursor: pointer;
 }
 
 form p {
@@ -129,4 +130,20 @@ form p span {
   h1 {
     font-size: 40px;
   }
+}
+
+.err {
+  border: 2px solid hsl(0, 100%, 74%);
+  background-color: url(./images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.text-err {
+  color: hsl(0, 100%, 74%);
+  font-style: italic;
+  font-size: 16px;
+  margin-left: auto;
+  margin-top: -16px;
+  margin-bottom: 20px;
 }
