@@ -1,0 +1,132 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+section {
+  max-width: 100%;
+  width: 50%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  background-size: cover;
+  padding: 0px 160px;
+}
+
+.left {
+  color: #fff;
+  padding-right: 30px;
+}
+
+.left p {
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+
+.try-it {
+  width: 90%;
+  background-color: hsl(248, 32%, 49%);
+  color: #fff;
+  padding: 20px 20px;
+  text-align: center;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px rgb(54, 54, 54);
+}
+
+.try-it span {
+  color: #fff;
+  font-weight: 600;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px rgb(54, 54, 54);
+}
+
+input,
+button {
+  width: 90%;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: hsl(154, 59%, 51%);
+  font-size: 16px;
+}
+
+form p {
+  font-size: 10px;
+  color: hsl(246, 25%, 77%);
+  margin: auto;
+}
+
+form p span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  main {
+    padding: 40px 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("./images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+  }
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    text-align: center;
+    padding: 40px 0px 60px;
+  }
+
+  .try-it {
+    padding: 15px 60px;
+  }
+
+  form p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
