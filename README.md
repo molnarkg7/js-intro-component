@@ -1,6 +1,7 @@
 # Frontend Mentor - Intro component with sign up form solution
 
-## Live Site URL: https://molnarkg7.github.io/js-intro-component/
+## Live Site URL: 
+- https://molnarkg7.github.io/js-intro-component/
 
 ## Build With
 - VS Code
